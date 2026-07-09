@@ -33,7 +33,6 @@ Science reasoning, math, AI for Science, complex QA, PhD-level eval. Drives HLE,
 - [Math-Forge](https://github.com/Entropyorder/Math-Forge) & [MathForge_Mulitimodal](https://github.com/Entropyorder/MathForge_Mulitimodal) — hard-math problem generation, including multimodal variants
 - [Stem-Video-QA-Studio](https://github.com/Entropyorder/Stem-Video-QA-Studio) — STEM video reasoning data studio
 - [Paper-QA-Expert](https://github.com/Entropyorder/Paper-QA-Expert) · [Paper_QA_CLI](https://github.com/Entropyorder/Paper_QA_CLI) · [Paper-Filter](https://github.com/Entropyorder/Paper-Filter) — AI-for-Science paper search, filter, and expert QA pipeline
-- [Mirror-Disdirection-QA](https://github.com/Entropyorder/Mirror-Disdirection-QA) — mirror / contour perception eval data
 
 ### 2 · Long-document extraction & matching Harness
 
@@ -56,9 +55,10 @@ Tool-use trajectories and long-horizon tasks for Agent SFT / RL — OpenClaw, Ag
 Video / audio / image / text understanding & alignment — streaming video response, fine-grained AV alignment, camera-movement data, art appreciation.
 
 - [Worldengine-Data-Collector](https://github.com/Entropyorder/Worldengine-Data-Collector) — frame-aligned video + telemetry pipeline (camera-movement / kinematics data)
+- [Mirror-Disdirection-QA](https://github.com/Entropyorder/Mirror-Disdirection-QA) — mirror / contour perception eval data
 - [Art-Wiki-Expert](https://github.com/Entropyorder/Art-Wiki-Expert) — art appreciation expert data
 - [Omni-Studio](https://github.com/Entropyorder/Omni-Studio) — multimodal alignment studio
-- [Social-World-Model](https://github.com/Entropyorder/Social-World-Model) — social-scene multimodal understanding
+- [Social-World-Model](https://github.com/Entropyorder/Social-World-Model) — social-scene world model data
 
 ## Information retrieval
 
