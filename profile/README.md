@@ -24,21 +24,47 @@ Expert knowledge — distilled into Agent Orchestrators — acts as task designe
 
 ## Four production Harnesses
 
-| Harness | Covers |
-| --- | --- |
-| **Multi-agent synthesis** | Science reasoning, math, AI for Science, complex QA, PhD-level eval — HLE, SFE, MicroVQA, MSEarth, SciCode |
-| **Long-document extraction & matching** | Textbooks, PDFs, scans, long knowledge assets → structured QA, knowledge points, image problems, solutions, training samples |
-| **Agent synthesis, eval & toolchain** | Tool-use trajectories & long-horizon tasks — OpenClaw, AgentOS, SkillBench — for Agent SFT / RL |
-| **Cross-modal alignment** | Video / audio / image / text understanding & alignment — streaming video response, fine-grained AV alignment, camera-movement data |
+Our repos are not demos — each is a working piece of one of the four production pipelines below. Together they trace the loop from raw asset to verifiable training signal.
 
-## Data product matrix
+### 1 · Multi-agent synthesis Harness
 
-Five product lines, mapped to real customer demand and shipped commercially — not demos:
+Science reasoning, math, AI for Science, complex QA, PhD-level eval. Drives HLE, SFE, hard-math, MicroVQA, MSEarth, SciCode-style products.
 
-- **Science reasoning** — HLE, SFE, hard math, STEM video reasoning, cross-lingual STEM, Sci Infograph, MicroVQA, MSEarth
-- **Multimodal** — streaming video active response, fine-grained AV alignment, camera-movement data, cross-lingual multimodal eval, mirror/contour perception, InfoGraph, art appreciation
-- **Code** — Yukicoder extension, SciCode, OJ contest extension
-- **Agent & information retrieval** — OpenClaw trajectories, AgentOS Trajectory, SkillBench, long-chain retrieval, open-ended real-world retrieval challenges
+- [Math-Forge](https://github.com/Entropyorder/Math-Forge) & [MathForge_Mulitimodal](https://github.com/Entropyorder/MathForge_Mulitimodal) — hard-math problem generation, including multimodal variants
+- [Stem-Video-QA-Studio](https://github.com/Entropyorder/Stem-Video-QA-Studio) — STEM video reasoning data studio
+- [Paper-QA-Expert](https://github.com/Entropyorder/Paper-QA-Expert) · [Paper_QA_CLI](https://github.com/Entropyorder/Paper_QA_CLI) · [Paper-Filter](https://github.com/Entropyorder/Paper-Filter) — AI-for-Science paper search, filter, and expert QA pipeline
+- [Mirror-Disdirection-QA](https://github.com/Entropyorder/Mirror-Disdirection-QA) — mirror / contour perception eval data
+
+### 2 · Long-document extraction & matching Harness
+
+Textbooks, PDFs, scans, long knowledge assets → structured QA, knowledge points, image problems, solutions, training samples.
+
+- [Book-QA-Extract](https://github.com/Entropyorder/Book-QA-Extract) — textbook / long-document → structured QA extraction
+- [pdf-exercise-crawler](https://github.com/Entropyorder/pdf-exercise-crawler) — PDF exercise crawling, async download, AI subject classification
+
+### 3 · Agent synthesis, eval & toolchain Harness
+
+Tool-use trajectories and long-horizon tasks for Agent SFT / RL — OpenClaw, AgentOS, SkillBench-shaped data.
+
+- [Trajectory-Orchestrator](https://github.com/Entropyorder/Trajectory-Orchestrator) — tool-use trajectory generation toolkit
+- [Openclaw-Syn](https://github.com/Entropyorder/Openclaw-Syn) — OpenClaw trajectory synthesis
+- [Skills-QA-Expert](https://github.com/Entropyorder/Skills-QA-Expert) — SkillBench-style skill / tool evaluation data
+- [MultiModels-Sample-Script](https://github.com/Entropyorder/MultiModels-Sample-Script) — multi-model candidate sampling for the generation stage
+
+### 4 · Cross-modal alignment Harness
+
+Video / audio / image / text understanding & alignment — streaming video response, fine-grained AV alignment, camera-movement data, art appreciation.
+
+- [Worldengine-Data-Collector](https://github.com/Entropyorder/Worldengine-Data-Collector) — frame-aligned video + telemetry pipeline (camera-movement / kinematics data)
+- [Art-Wiki-Expert](https://github.com/Entropyorder/Art-Wiki-Expert) — art appreciation expert data
+- [Omni-Studio](https://github.com/Entropyorder/Omni-Studio) — multimodal alignment studio
+- [Social-World-Model](https://github.com/Entropyorder/Social-World-Model) — social-scene multimodal understanding
+
+## Information retrieval
+
+Open-ended, long-chain real-world retrieval challenges.
+
+- [Search-Align-Studio](https://github.com/Entropyorder/Search-Align-Studio) — long-chain retrieval & search-alignment data
 
 ## The signal that matters
 
